@@ -11,14 +11,18 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
+    list-style: none;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
 a:hover {
     text-decoration: underline;
+    font-weight: bold;
+    color: black;
 }
 h1 {
     font-size: 3em;
