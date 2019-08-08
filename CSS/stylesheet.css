@@ -48,3 +48,68 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+form{
+   position:absolute;
+   top: 0px;
+   box-sizing: border-box;
+   padding: 40px;
+   width:400px;
+   height:300px;
+}
+.form-control{
+  background: transparent;
+  display: block;
+  box-sizing:border-box;
+  margin-bottom:20px;
+  padding: 5px;
+  width:500px;
+  border:none;
+  outline:none;
+  border-bottom: 1px solid #aaa;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-weight: 400px;
+  font-size: 15px;
+  transition: .2s ease;
+}
+input{
+  margin-bottom: 28px;
+  width: 120px;
+  height: 32px;
+  background: #f44336;
+  border:none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-weight: 500px;
+  transition: .2s ease;
+  cursor: pointer;
+}
+input[type="submit"]
+{
+  margin-bottom: 28px;
+  width: 120px;
+  height: 32px;
+  background: #f44336;
+  border:none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-weight: 500px;
+  text-transform: uppercase;
+  transition: .2s ease;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+  background: #ff5722;
+  transition: .2s ease;
+}
+#contact-form{
+  position: relative;
+  margin: auto;
+  height:400px;
+  width:600px;
+  background: rgba(255,255,255, 0.2) ;
+  box-shadow:0 2px 4px rgba(0,0,0, 0.6);
+}
