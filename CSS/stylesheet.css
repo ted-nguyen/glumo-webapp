@@ -1,8 +1,11 @@
 body {
-  width: 70%;
   background-image: url(https://i.postimg.cc/bv4BvbST/cactus-2561697-1920.jpg);
   margin: 60px auto;
+  background-size: cover;
+  width: 80%;
 }
+/* https://i.ibb.co/QHDMX3L/Untitled-drawing.jpg */
+/* https://i.postimg.cc/bv4BvbST/cactus-2561697-1920.jpg */
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
