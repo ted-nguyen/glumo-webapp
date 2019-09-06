@@ -1,32 +1,12 @@
 ## Welcome to GluMo
 
-This is a web application that will continuously monitor and display each user's blood glucose levels.
+This is a web application that will continuously monitor and display a user's blood glucose level in real time.
 
-### How It Works
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## User Features
+1. Track current blood glucose level
+2. View changes in blood glucose level over the specified period of time, such as the past 2 weeks, month, year, etc.
 
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Contact
+If you have any questions or concerns, please contact information.
+info@glumotech.com
