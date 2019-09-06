@@ -9,4 +9,5 @@ This is a web application that will continuously monitor and display a user's bl
 
 ### Contact
 If you have any questions or concerns, please contact information.
+
 info@glumotech.com
