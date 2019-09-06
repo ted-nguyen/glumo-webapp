@@ -78,7 +78,7 @@ input{
   margin-bottom: 28px;
   width: 120px;
   height: 32px;
-  background: #f44336;
+  /* background: #f44336; */
   border:none;
   border-radius: 2px;
   color: #fff;
@@ -116,3 +116,80 @@ input[type="submit"]:focus
   background: rgba(255,255,255, 0.2) ;
   box-shadow:0 2px 4px rgba(0,0,0, 0.6);
 }
+#login-box{
+  position: relative;
+  margin: auto;
+  height:400px;
+  width:400px;
+  background: rgba(255,255,255, 0.2) ;
+  box-shadow:0 2px 4px rgba(0,0,0, 0.6);
+  background-size: cover;
+  background-position: center;
+  font-size: 15px;
+}
+/* input[type="text"]
+{
+  margin-bottom: 28px;
+  width: 120px;
+  height: 32px;
+  background: #fff;
+  box-sizing:border-box;
+  border-color: black;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-weight: 500px;
+  transition: .2s ease;
+  cursor: pointer;
+} */
+.top-box{
+  position:absolute;
+  top: 0px;
+  box-sizing: border-box;
+  padding: 40px;
+  width:400px;
+  height:200px;
+}
+.bottom-box{
+  position:absolute;
+  bottom: 0px;
+  box-sizing: border-box;
+  padding: 10px;
+  width:400px;
+  height:200px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.top-box .login
+{
+  display: block;
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+/* input[type="login"]
+{
+  margin-bottom: 28px;
+  width: 120px;
+  height: 32px;
+  background: #f44336;
+  border:none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-weight: 500px;
+  text-transform: uppercase;
+  transition: .2s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type="login"]:hover,
+input[type="login"]:focus
+{
+  background: #ff5722;
+  transition: .2s ease;
+} */
