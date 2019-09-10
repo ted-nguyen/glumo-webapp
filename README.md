@@ -1,6 +1,6 @@
 ## Welcome to GluMo
 
-This is a web application that will continuously monitor and display a user's blood glucose level in real time.
+This web application will continuously monitor and display a user's blood glucose level in real time.
 
 ## User Features
 1. Track current blood glucose level
@@ -8,6 +8,6 @@ This is a web application that will continuously monitor and display a user's bl
 
 
 ### Contact
-If you have any questions or concerns, please contact information.
+If you have any questions or concerns, please contact our information email.
 
 info@glumotech.com
