@@ -78,7 +78,6 @@ input{
   margin-bottom: 28px;
   width: 120px;
   height: 32px;
-  /* background: #f44336; */
   border:none;
   border-radius: 2px;
   color: #fff;
@@ -108,6 +107,7 @@ input[type="submit"]:focus
   background: #ff5722;
   transition: .2s ease;
 }
+
 #contact-form{
   position: relative;
   margin: auto;
@@ -127,21 +127,7 @@ input[type="submit"]:focus
   background-position: center;
   font-size: 15px;
 }
-/* input[type="text"]
-{
-  margin-bottom: 28px;
-  width: 120px;
-  height: 32px;
-  background: #fff;
-  box-sizing:border-box;
-  border-color: black;
-  border-radius: 10px;
-  color: #fff;
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  font-weight: 500px;
-  transition: .2s ease;
-  cursor: pointer;
-} */
+
 .top-box{
   position:absolute;
   top: 0px;
@@ -150,6 +136,7 @@ input[type="submit"]:focus
   width:400px;
   height:200px;
 }
+
 .bottom-box{
   position:absolute;
   bottom: 0px;
@@ -160,6 +147,7 @@ input[type="submit"]:focus
   font-weight: bold;
   font-size: 25px;
 }
+
 .top-box .login
 {
   display: block;
