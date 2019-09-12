@@ -42,14 +42,15 @@ a:hover {
   box-sizing: border-box;
   padding: 70px 30px;
   border-radius: 10px; /* Makes the box have rounded edges */
-  border: 1px solid lightgrey;
+  border: 1px solid lightgrey; /* creates an "outline" of the box */
 }
 
 h1 {
   margin: 0;
-  padding: 0 0 20px;
+  padding: 0px 0px 20px;
   text-align: center;
-  font-size: 22px;
+  font-size: 24px;
+  font-family:"Segoe UI", Arial, sans-serif;
 }
 
 /* Style the login box paragraphs */
@@ -60,48 +61,62 @@ h1 {
 }
 
 .login-box input {
-  width: 100%;
+  width: 96%;
   margin-bottom: 20px;
 }
 
+/* Style the two input boxes */
 .login-box input[type="text"], input[type="password"]
 {
-  border: none;
-  border-bottom: 1px solid #fff;
+  border-radius: 4px;
+  border: 1px solid lightgrey; /* creates an "outline" of the box */
   background: transparent;
-  outline: none;
-  height: 40px;
-  color: #fff;
+  height: 28px;
   font-size: 16px;
+  font-family:"Segoe UI", Arial, sans-serif;
+  padding: 6px;
 }
 
+/* changes the color of the placeholder text when clicked on */
+input:focus::-webkit-input-placeholder {
+  color: lightgrey;
+}
+
+/* style log in button */
 .login-box input[type="submit"]
 {
+  width: 100%;
   border: none;
   outline: none;
   height: 40px;
-  background: #fb2525;
+  background: #6780E5;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 20px;
+  font-family:"Segoe UI", Arial, sans-serif;
+  font-weight: bold;
 }
 
+/* style Log in button when hovered */
 .login-box input[type="submit"]:hover
 {
   cursor: pointer;
-  background: #ffc107;
-  color: #000;
+  background: #3B55C3;
 }
 
+/* for Forgot password and Create account styling */
 .login-box a
 {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
-  color: darkgrey;
+  color: #6780E5;
+  font-family:"Segoe UI", Arial, sans-serif;
+  font-weight: bold;
 }
 
-.login-box a:hover
+.login-box, .create-account p
 {
-  color: #ffc107;
+  font-size: 14px;
+  font-family:"Segoe UI", Arial, sans-serif;
 }

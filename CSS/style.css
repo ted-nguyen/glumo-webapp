@@ -7,7 +7,7 @@ body {
 
 /* Style the navigation bar */
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Segoe UI', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -37,7 +37,7 @@ a:hover {
 h1 {
     font-size: 3em;
     text-align: center;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Segoe UI', 'Arial', 'Sans-Serif';
 }
 
 /* style the paragraphs */
