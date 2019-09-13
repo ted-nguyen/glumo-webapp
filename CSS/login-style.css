@@ -50,7 +50,7 @@ h1 {
   padding: 0px 0px 20px;
   text-align: center;
   font-size: 24px;
-  font-family:"Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif'
 }
 
 /* Style the login box paragraphs */
@@ -73,7 +73,7 @@ h1 {
   background: transparent;
   height: 28px;
   font-size: 16px;
-  font-family:"Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  font-family:"Proxima Nova Regular", Arial, sans-serif;
   padding: 6px;
 }
 
@@ -101,7 +101,7 @@ input:focus::-webkit-input-placeholder {
   color: #fff;
   font-size: 16px;
   border-radius: 20px;
-  font-family:"Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  font-family:"Proxima Nova Regular", Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -119,7 +119,7 @@ input:focus::-webkit-input-placeholder {
   font-size: 14px;
   line-height: 20px;
   color: #007FFF;
-  font-family:"Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  font-family:"Proxima Nova Regular", Arial, sans-serif;
   font-weight: normal;
 }
 
@@ -131,6 +131,6 @@ input:focus::-webkit-input-placeholder {
 .login-box, .create-account a
 {
   font-size: 14px;
-  font-family:"Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  font-family:"Proxima Nova Regular", Arial, sans-serif;
   font-weight: bold;
 }
