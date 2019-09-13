@@ -1,5 +1,10 @@
 body {
+<<<<<<< HEAD
   background-image: url("bluebackground.jpg");
+=======
+  /*background-image: url(https://i.postimg.cc/bv4BvbST/cactus-2561697-1920.jpg);*/
+  background-color: #B9D3EE;
+>>>>>>> 56faf5d3c592039674e0a4fa4bfb8b476e96fbda
   margin: 60px auto;
   background-size: cover;
   width: 80%;
@@ -50,7 +55,7 @@ h1 {
   padding: 0px 0px 20px;
   text-align: center;
   font-size: 24px;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:"Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
 }
 
 /* Style the login box paragraphs */
@@ -73,8 +78,16 @@ h1 {
   background: transparent;
   height: 28px;
   font-size: 16px;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:"Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
   padding: 6px;
+}
+
+/* style the two input boxes when they're clicked on */
+.login-box input[type="text"]:focus, input[type="password"]:focus
+{
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 0 0 1px #007FFF; /*https://www.w3schools.com/cssref/css3_pr_box-shadow.asp for reference */
 }
 
 /* changes the color of the placeholder text when clicked on */
@@ -89,11 +102,11 @@ input:focus::-webkit-input-placeholder {
   border: none;
   outline: none;
   height: 40px;
-  background: #6780E5;
+  background: #007FFF;
   color: #fff;
   font-size: 16px;
   border-radius: 20px;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:"Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
   font-weight: bold;
 }
 
@@ -110,13 +123,19 @@ input:focus::-webkit-input-placeholder {
   text-decoration: none;
   font-size: 14px;
   line-height: 20px;
-  color: #6780E5;
-  font-family:"Segoe UI", Arial, sans-serif;
-  font-weight: bold;
+  color: #007FFF;
+  font-family:"Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  font-weight: normal;
 }
 
-.login-box, .create-account p
+.login-box a:hover
+{
+  text-decoration: underline;
+}
+/* style the create account text and hyperlink */
+.login-box, .create-account a
 {
   font-size: 14px;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:"Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  font-weight: bold;
 }
