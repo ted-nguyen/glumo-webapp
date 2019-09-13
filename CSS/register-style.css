@@ -1,6 +1,6 @@
 body {
   width: 70%;
-
+  background-image: url("bluebackground.jpg");
   margin: 60px auto;
 }
 nav ul, footer ul {
@@ -8,7 +8,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    text-align: right;
+    text-align: left;
 }
 nav ul li, footer ul li {
     display: inline;

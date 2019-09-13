@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://i.postimg.cc/bv4BvbST/cactus-2561697-1920.jpg);
+  background-image: url("bluebackground.jpg");
   margin: 60px auto;
   background-size: cover;
   width: 80%;
@@ -11,7 +11,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    text-align: right;
+    text-align: left;
 }
 nav ul li, footer ul li {
     display: inline;
