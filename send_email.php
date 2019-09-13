@@ -1,3 +1,4 @@
+<html>
 <?php
 $webmaster_email = "info@glumotech.com";
 ​
@@ -55,3 +56,4 @@ else {
     header( "Location: $thankyou_page" );
 }
 ?>
+</html>
