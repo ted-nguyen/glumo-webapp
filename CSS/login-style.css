@@ -1,32 +1,39 @@
 body {
   background-image: url("bluebackground.jpg");
-  margin: 60px auto;
   background-size: cover;
-  width: 80%;
+  font-family:'Segoe UI', 'Arial', 'Sans-Serif';
+  margin: 0px;
 }
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    text-align: left;
+/* Add a white background to the top navigation bar */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 1px solid darkgrey;
 }
 
-nav ul li, footer ul li {
-    display: inline;
-    list-style: none;
-    margin-right: 20px;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
 }
 
-a {
-    text-decoration: none;
-    color: #999;
+/* Add a transition and change the color of the text when hovered */
+.topnav a:hover {
+  border-bottom: 2px solid #007FFF;
+  color: #007FFF;
+  transition: all .3s ease-in-out;
 }
-a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-    color: black;
+
+/* Right-aligned section inside the navigation bar */
+.topnav-right {
+  float: right;
 }
 
 /* Style the login box */
@@ -50,7 +57,7 @@ h1 {
   padding: 0px 0px 20px;
   text-align: center;
   font-size: 24px;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif'
+  font-family: "Proxima Nova Regular",Helvetica,Arial,sans-serif;
 }
 
 /* Style the login box paragraphs */
@@ -73,7 +80,7 @@ h1 {
   background: transparent;
   height: 28px;
   font-size: 16px;
-  font-family:"Proxima Nova Regular", Arial, sans-serif;
+  font-family: "Proxima Nova Regular",Helvetica,Arial,sans-serif;
   padding: 6px;
 }
 
@@ -101,7 +108,7 @@ input:focus::-webkit-input-placeholder {
   color: #fff;
   font-size: 16px;
   border-radius: 20px;
-  font-family:"Proxima Nova Regular", Arial, sans-serif;
+  font-family: "Proxima Nova Regular",Helvetica,Arial,sans-serif;
   font-weight: bold;
 }
 
@@ -119,7 +126,7 @@ input:focus::-webkit-input-placeholder {
   font-size: 14px;
   line-height: 20px;
   color: #007FFF;
-  font-family:"Proxima Nova Regular", Arial, sans-serif;
+  font-family: "Proxima Nova Regular",Helvetica,Arial,sans-serif;
   font-weight: normal;
 }
 
@@ -131,6 +138,6 @@ input:focus::-webkit-input-placeholder {
 .login-box, .create-account a
 {
   font-size: 14px;
-  font-family:"Proxima Nova Regular", Arial, sans-serif;
+  font-family: "Proxima Nova Regular", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
