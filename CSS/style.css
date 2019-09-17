@@ -12,6 +12,13 @@ body {
   border-bottom: 1px solid darkgrey;
 }
 
+/* Adjust the width of the navigation bar
+.container {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+*/
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -34,4 +41,21 @@ body {
 /* Right-aligned section inside the navigation bar */
 .topnav-right {
   float: right;
+}
+
+/* Center and add padding to text */
+.main-body-text {
+  text-align: center;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.header1 {
+  font-weight: 500;
+  font-size: 64px;
+}
+
+.paragraph1 {
+  font-weight: 400;
+  font-size: 20px;
 }
