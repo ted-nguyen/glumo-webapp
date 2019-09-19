@@ -12,13 +12,6 @@ body {
   border-bottom: 1px solid darkgrey;
 }
 
-/* Adjust the width of the navigation bar
-.container {
-  padding-left: 12%;
-  padding-right: 12%;
-}
-*/
-
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
