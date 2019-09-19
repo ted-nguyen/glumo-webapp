@@ -47,6 +47,7 @@ body {
 .column {
   float: left;
   width: 50%;
+  margin: auto;
 }
 
 /* Clear floats after the column */
@@ -56,21 +57,25 @@ body {
   clear: both;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other when the screen is less than 600px*/
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
-}*/
-
-.left-header1 {
-  font-weight: 500;
-  font-size: 64px;
-  padding: 20px;
-  text-align: center;
 }
 
-.left-paragraph1 {
-  font-weight: 400;
-  font-size: 20px;
+.content-container {
+  margin: 50px 40px 50px 200px; /* top, right, bottom, left */
+}
+
+.left-header1 {
+  font-size: 24px;
+  padding: 42px 0 24px; /* top, right-left, bottom */
+}
+
+.feature-statement {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 42px auto;
 }
