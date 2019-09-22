@@ -3,25 +3,48 @@
 	<head>
 		<title>About | GluMo</title>
 		<link rel="stylesheet" type="text/css" href="./css/about-style.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
 	</head>
 	<body>
 		<div class="topnav">
-			<a href="webapp.html">Home</a>
-			<div class="topnav-right">
-				<a href="about.html">About</a>
-				<a href="contact.html">Contact</a>
-				<a href="login.html">Log in</a>
+			<div class="nav-container">
+				<a href="webapp.html"><img src="GluMoLoGo(Blue).png" style="width: 200px;">
+				</a>
+				<div class="topnav-right">
+					<a href="about.html">About</a>
+					<a href="team.html">Team</a>
+					<a href="contact.php">Contact</a>
+					<a href="login.html">Log in</a>
+				</div>
 			</div>
 		</div>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>About GluMo</h1>
-				<p>A web application to display and monitor your glucose levels.</p>
-    		</div>
-		</div>
-		<footer>
-    		<ul>
 
-			</ul>
-		</footer>
+		<div class="row">
+    	<div class="column">
+        <h1 style="text-align: center">What is GluMo</h1>
+				<p style="text-align: center">A noninvasive blood glucose monitoring biomedical device</p>
+				<p id="content">
+							Unlike standard single droplet blood glucose meters which require actual blood samples,
+							GluMo uses infrared (IR) light to measure the amount of glucose in the user's blood without
+							drawing any blood. The current method for monitoring blood glucose levels requires a drop of
+							blood to be periodically obtained by pricking a fingertip with a retractable needle. However, this
+							method is invasive, painful, and sometimes messy for the users. It can also cause infections over
+							time with regular use due to the usage of un-sterilized needles, repeated usage of needles which
+							were designed and manufactured for single usage, or the sharing of needles/prickers between
+							patients.
+							Furthermore, GluMo is a monitoring system and not simply a meter. Meaning, GluMo
+							continuously takes measurements and wirelessly updates the user's medical file. The file, which
+							is in the form of a secure website, contains timestamped glucose level measurements, graphs,
+							and even predictions of the user's near future glucose levels based on learned trends of the user's
+							actual glucose levels over time. This online medical file can then be shared with the user's
+							doctor, nurse, parents, children, etc. or for hospitalized patents or senior citizens at a
+							nursing/retirement home the file can be securely shared with the facility's staff for ensuring the
+							administration of accurate amounts of insulin and other medication, or even the adjustment of the
+							dietary sugar levels in prepared meals for each individual patent/resident.
+							The goal is to shrink the technology's physical size to a system on a chip which can then
+							be intergraded into correctly existing wearables which have IR sensors such as smart watches or
+							sowed into the fabric of clothing along with specialized IR emitters and sensors.
+				</p>
+    	</div>
+		</div>
 </html>

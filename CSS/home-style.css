@@ -1,0 +1,20 @@
+/* None of this code is working for some reason */
+.left-container {
+  margin: 5% 0px 0px 10%; /* top, right, bottom, left */
+}
+
+h1.left-header {
+  font-size: 24px;
+  padding: 42px 0 24px; /* top, right-left, bottom */
+}
+
+.feature-statement {
+  font-size: 9px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 42px auto;
+}
+
+.right-container {
+  margin: 5% 0px 0px 10%;
+}

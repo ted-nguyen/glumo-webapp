@@ -1,3 +1,7 @@
+/***
+  CSS file to style the navgiation bar and background
+***/
+
 body {
   background-image: url("bluebackground.jpg");
   background-size: cover;
@@ -7,9 +11,12 @@ body {
 
 /* Add a white background to the top navigation bar */
 .topnav {
-  background-color: white;
+  background: rgba(255, 255, 255, .5);
   overflow: hidden;
-  border-bottom: 1px solid darkgrey;
+  border-bottom: 1px solid white;
+  width: 50%;
+  border-right: 1px solid white;
+  border-bottom-right-radius: 10px;
 }
 
 /* Style the links inside the navigation bar */
@@ -17,16 +24,14 @@ body {
   float: left;
   color: gray;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 12px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
-  border-bottom: 2px solid transparent;
 }
 
 /* Add a transition and change the color of the text when hovered */
 .topnav a:hover {
-  border-bottom: 2px solid #007FFF;
   color: #007FFF;
   transition: all .3s ease-in-out;
 }
@@ -34,13 +39,14 @@ body {
 /* Right-aligned section inside the navigation bar */
 .topnav-right {
   float: right;
+  padding: 25px 15px;
 }
 
 /* Create two equal columns that float next to each other */
 .column {
   float: left;
   width: 50%;
-  margin: auto;
+  margin: auto auto;
 }
 
 /* Clear floats after the column */
@@ -55,20 +61,3 @@ body {
   .column {
     width: 100%;
   }
-}
-
-.content-container {
-  margin: 50px 40px 50px 200px; /* top, right, bottom, left */
-}
-
-.left-header1 {
-  font-size: 24px;
-  padding: 42px 0 24px; /* top, right-left, bottom */
-}
-
-.feature-statement {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 24px;
-  margin: 42px auto;
-}

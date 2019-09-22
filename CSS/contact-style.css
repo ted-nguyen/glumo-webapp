@@ -1,158 +1,63 @@
-body {
-  background-image: url("bluebackground.jpg");
-  background-size: cover;
-  font-family:'Segoe UI', 'Arial', 'Sans-Serif';
-  margin: 0px;
+.content-container h1 {
+  padding-left: 200px;
+  font-size: 48px;
 }
 
-/* Add a white background to the top navigation bar */
-.topnav {
-  background-color: white;
-  overflow: hidden;
-  border-bottom: 1px solid darkgrey;
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; /* Allows the user to vertically resize the textarea (not horizontally though) */
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: gray;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: bold;
-  border-bottom: 2px solid transparent;
-}
-
-/* Add a transition and change the color of the text when hovered */
-.topnav a:hover {
-  border-bottom: 2px solid #007FFF;
-  color: #007FFF;
-  transition: all .3s ease-in-out;
-}
-
-/* Right-aligned section inside the navigation bar */
-.topnav-right {
-  float: right;
-}
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-form{
-   position:absolute;
-   top: 0px;
-   box-sizing: border-box;
-   padding: 40px;
-   width:400px;
-   height:300px;
-}
-.form-control{
-  background: transparent;
-  display: block;
-  box-sizing:border-box;
-  margin-bottom:20px;
-  padding: 5px;
-  width:500px;
-  border:none;
-  outline:none;
-  border-bottom: 1px solid #aaa;
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  font-weight: 400px;
-  font-size: 15px;
-  transition: .2s ease;
-}
-input{
-  margin-bottom: 28px;
-  width: 120px;
-  height: 32px;
-  border:none;
-  border-radius: 2px;
-  color: black;
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  font-weight: 500px;
-  transition: .2s ease;
-  cursor: pointer;
-}
-input[type="submit"]
-{
-  margin-bottom: 28px;
-  width: 120px;
-  height: 32px;
-  background: #f44336;
-  border:none;
-  border-radius: 2px;
+/* Style the submit button with a specific background color */
+input[type=submit] {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #007FFF;
   color: #fff;
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  font-weight: 500px;
-  text-transform: uppercase;
-  transition: .2s ease;
-  cursor: pointer;
-}
-input[type="submit"]:hover,
-input[type="submit"]:focus
-{
-  background: #ff5722;
-  transition: .2s ease;
-}
-
-#contact-form{
-  position: relative;
-  margin: auto;
-  height:400px;
-  width:600px;
-  background: rgba(255,255,255, 0.2) ;
-  box-shadow:0 2px 4px rgba(0,0,0, 0.6);
-}
-#login-box{
-  position: relative;
-  margin: auto;
-  height:400px;
-  width:400px;
-  background: rgba(255,255,255, 0.2) ;
-  box-shadow:0 2px 4px rgba(0,0,0, 0.6);
-  background-size: cover;
-  background-position: center;
-  font-size: 15px;
-}
-
-.top-box{
-  position:absolute;
-  top: 0px;
-  box-sizing: border-box;
-  padding: 40px;
-  width:400px;
-  height:200px;
-}
-
-.bottom-box{
-  position:absolute;
-  bottom: 0px;
-  box-sizing: border-box;
-  padding: 10px;
-  width:400px;
-  height:200px;
+  font-size: 16px;
+  border-radius: 20px;
+  font-family: "Proxima Nova Regular",Helvetica,Arial,sans-serif;
   font-weight: bold;
-  font-size: 25px;
 }
 
-.top-box .login
-{
-  display: block;
-  margin-bottom: 40px;
-  font-size: 30px;
-  color: #000;
+/* Style the submit button when hovered */
+input[type=submit]:hover {
+  cursor: pointer;
+  background: #3B55C3;
+}
+
+/* Add a background color and some padding around the form */
+.contact-form {
+  width: 500px;
+  height: 550px;
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+  top: 55%;
+  left: 78%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 10px; /* Makes the box have rounded edges */
+  border: 1px solid lightgrey; /* creates an "outline" of the box */
+}
+
+.error {
+  color: red;
+
+}
+
+.success {
+  color: #ff9966;
   text-align: center;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-size: 20px;
 }
