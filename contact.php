@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Contact | GluMo</title>
+		<link rel="shortcut icon" type="image/png" href="favicon.png">
 		<link rel="stylesheet" type="text/css" href="./css/contact-style.css">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 	</head>
