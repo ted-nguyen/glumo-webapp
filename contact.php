@@ -14,7 +14,7 @@
 				<div class="topnav-right">
 					<a href="about.html">About</a>
 					<a href="team.html">Team</a>
-					<a href="contact.html">Contact</a>
+					<a href="contact.php">Contact</a>
 					<a href="login.html">Log in</a>
 				</div>
 			</div>
@@ -28,7 +28,7 @@
 		<div class="contact-form">
 			<form action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
 
-				<input type="text" id="name" name="name" placeholder="Your name" value="<?= $name ?>" required> 
+				<input type="text" id="name" name="name" placeholder="Your name" value="<?= $name ?>" required>
 				<span class="error"><?= $name_error ?></span>
 
 				<input type="text" id="email" name="email" placeholder="Your email" value="<?= $email ?>" required>
