@@ -42,7 +42,7 @@ input[type=submit]:hover {
   background: rgba(255, 255, 255, 0.5);
   color: black;
   top: 55%;
-  left: 78%;
+  left: 29%;
   position: absolute;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
