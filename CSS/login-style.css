@@ -1,3 +1,9 @@
+.announcement {
+  font-size: 30px;
+  padding-top: 15%;
+  padding-right: 45%;
+}
+
 /* Style the login box */
 .login-box {
   width: 448px;
