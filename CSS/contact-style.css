@@ -1,5 +1,5 @@
 .content-container h1 {
-  padding-left: 200px;
+  padding-left: 890px;
   font-size: 48px;
 }
 
@@ -42,13 +42,17 @@ input[type=submit]:hover {
   background: rgba(255, 255, 255, 0.5);
   color: black;
   top: 55%;
-  left: 29%;
+  left: 70%;
   position: absolute;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
   padding: 70px 30px;
   border-radius: 10px; /* Makes the box have rounded edges */
   border: 1px solid lightgrey; /* creates an "outline" of the box */
+}
+
+.Logos{
+  padding-left: 10%;
 }
 
 .error {

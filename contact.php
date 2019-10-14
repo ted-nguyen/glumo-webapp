@@ -41,4 +41,7 @@
 				<div class="success"><?= $success; ?></div>
 			</form>
 		</div>
+		<div class="Logos">
+			<a href="https://www.scu.edu/engineering/labs--research/labs/frugal-innovation-hub/"><img src="frugalhub.png" style="width: 400px;">
+			</div>
 </html>
