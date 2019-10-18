@@ -15,7 +15,34 @@
 					<a href="about.html">About</a>
 					<a href="team.html">Team</a>
 					<a href="contact.php">Contact</a>
-					<a href="login.html">Log in</a>
+
+					<!-- Button to open the modal login form -->
+					<button onclick="document.getElementById('id01')">Log in</button>
+
+					<!-- The Modal -->
+					<div id='id01' class="modal">
+						<span onclick="document.getElementById('id01').style.display='nones'"
+						class="close" title="Close Modal">&times;</span>
+
+						<!-- Modal Content -->
+						<form class="modal-content animate" action="/action_page.php">
+							<div class="imgcontainer">
+								<img src="img_avatar2.png" alt="Avatar" class="avatar">
+							</div>
+
+							<div class="modal-container">
+								<label for="uname"><b>Username</b></label>
+								<input type="text" placeholder="Enter Username" name="uname" required>
+
+								<label for="psw"><b>Password</b></label>
+								<input type="password" placeholder="Enter Password" name="psw" required>
+
+								<button type="submit">Log in</button>
+							</div>
+
+							<span class="psw"><a href="#">Forgot password?</a></span>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
