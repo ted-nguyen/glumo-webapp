@@ -18,29 +18,24 @@
 
 /* Style the modal */
 .modal {
-  display:none;
-  position:fixed;
-  z-index: 1;
+  display:none; /* Hidden by default */
+  position:fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.2);
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* black with opacity */
 }
 
 /* Style the modal box */
 .modal-content {
   background-color: #f4f4f4;
-  margin: 20% auto;
-  width: 40%;
+  margin: 5% auto;
+  width: 42%;
   animation-name: modal-open;
   animation-duration: 1s;
-}
-
-@keyframes modal-open {
-  from{opacity: 0}
-  to{opacity: 1}
 }
 
 .modal-header {
@@ -49,22 +44,116 @@
   color: white;
 }
 
-.modal-header h2 {
+.modal-header h1 {
   margin: 0px;
 }
 
 .modal-body {
-  padding: 10px 20px;
+  padding: 5% 20px;
 }
+
 /* Move close button to top right */
 .closeBtn {
-  color: #ccc;
+  color: white;
   float: right;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .closeBtn:hover, closeBtn:focus {
-  color: red;
+  color: lightgray;
   text-decoration: none;
   cursor: pointer;
+}
+
+ /* Add zoom animation */
+.animate {
+  -webkit -animation: animatezoom 0.6s;
+  animation: animatezoom: 0.6s;
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Style the login box paragraphs */
+.login-box p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.login-box input {
+  width: 96%;
+  margin-bottom: 20px;
+}
+
+/* Style the two input boxes */
+.login-box input[type="text"], input[type="password"]
+{
+  border-radius: 4px;
+  border: 1px solid lightgrey; /* creates an "outline" of the box */
+  background: transparent;
+  height: 28px;
+  font-size: 16px;
+  font-family: "Proxima Nova Regular",Helvetica,Arial,sans-serif;
+  padding: 6px;
+}
+
+/* style the two input boxes when they're clicked on */
+.login-box input[type="text"]:focus, input[type="password"]:focus
+{
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 0 0 1px #007FFF; /*https://www.w3schools.com/cssref/css3_pr_box-shadow.asp for reference */
+}
+
+/* changes the color of the placeholder text when clicked on */
+input:focus::-webkit-input-placeholder {
+  color: lightgrey;
+}
+
+/* style log in button */
+.login-box input[type="submit"]
+{
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #007FFF;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 20px;
+  font-family: "Proxima Nova Regular",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+}
+
+/* style Log in button when hovered */
+.login-box input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #3B55C3;
+}
+
+/* for Forgot password and Create account styling */
+.login-box a
+{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #007FFF;
+  font-family: "Proxima Nova Regular",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+}
+
+.login-box a:hover
+{
+  text-decoration: underline;
+}
+/* style the create account text and hyperlink */
+.login-box, .create-account a
+{
+  font-size: 14px;
+  font-family: "Proxima Nova Regular", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
