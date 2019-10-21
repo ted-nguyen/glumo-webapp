@@ -1,0 +1,70 @@
+/* Style the log in button */
+.button {
+  padding: 12px 12px;
+  color: gray;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #007FFF;
+  transition: all .3s ease-in-out;
+}
+
+/* Style the modal */
+.modal {
+  display:none;
+  position:fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Style the modal box */
+.modal-content {
+  background-color: #f4f4f4;
+  margin: 20% auto;
+  width: 40%;
+  animation-name: modal-open;
+  animation-duration: 1s;
+}
+
+@keyframes modal-open {
+  from{opacity: 0}
+  to{opacity: 1}
+}
+
+.modal-header {
+  background: #007FFF;
+  padding: 15px;
+  color: white;
+}
+
+.modal-header h2 {
+  margin: 0px;
+}
+
+.modal-body {
+  padding: 10px 20px;
+}
+/* Move close button to top right */
+.closeBtn {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+}
+
+.closeBtn:hover, closeBtn:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
