@@ -4,19 +4,49 @@
 		<title>GluMo</title>
 		<link rel="shortcut icon" type="image/png" href="favicon.png">
 		<link rel="stylesheet" type="text/css" href="./css/team-style.css">
+		<link rel="stylesheet" type="text/css" href="./css/modal-style.css">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 	</head>
 	<body>
 		<div class="topnav">
 			<div class="nav-container">
-				<a href="webapp.html"><img src="GluMoLoGo(Blue).png" style="width: 200px;">
-				</a>
+				<a href="webapp.html"><img src="GluMoLoGo(Blue).png" style="width: 200px;"></a>
 				<div class="topnav-right">
 					<a href="about.html">About</a>
 					<a href="team.html">Team</a>
 					<a href="contact.php">Contact</a>
-					<a href="login.html">Log in</a>
+					<!-- Button to open the modal login form -->
+					<button id="modalBtn" class="button">Log in</button>
+
+					<div id="loginModal" class="modal">
+						<div class="modal-content">
+
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<span class="closeBtn">&times;</span>
+								<h1>Log in</h1>
+							</div>
+
+							<!-- Modal Body -->
+							<form class="modal-body animate" action="/action_page.php">
+								<div class="login-box">
+									<input type="text" name="" placeholder="Email address" required>
+									<input type="password" name="" placeholder="Enter your password" required>
+									<input type="submit" name="" value="Log in">
+								</div>
+							</form>
+
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<span class="psw"><a href="#">Forgot password?</a></span>
+								<!--<p class="create-account">New to GluMo? <a href="#">Join us today</a></p>-->
+							</div>
+
+						</div>
+					</div>
+
+					<script src="main.js"></script>
 				</div>
 			</div>
 		</div>
@@ -58,42 +88,43 @@
 							<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
 							<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>-->
 						</ul>
-				</div>
+					</div>
 
-				<!-- Ben Tan's Card -->
-				<div class="card">
-					<img src="cards/card-bg.jpg" alt="card background" class="card-img">
-					<img src="cards/ben_headshot.jpeg" alt="profile image" class="profile-img">
-					<h1>Ben Tan</h1>
-					<p class="job-title">Bioengineer</p>
-					<p class="about">
-						<!-- talk about person here-->
-					</p>
-					<a href="#" class="btn">Contact</a>
-					<ul class="social-media">
-						<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-						<!--<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-						<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-						<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>-->
-					</ul>
-				</div>
+					<!-- Ben Tan's Card -->
+					<div class="card">
+						<img src="cards/card-bg.jpg" alt="card background" class="card-img">
+						<img src="cards/ben_headshot.jpeg" alt="profile image" class="profile-img">
+						<h1>Ben Tan</h1>
+						<p class="job-title">Bioengineer</p>
+						<p class="about">
+							<!-- talk about person here-->
+						</p>
+						<a href="#" class="btn">Contact</a>
+						<ul class="social-media">
+							<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+							<!--<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>-->
+						</ul>
+					</div>
 
-				<!-- Hanna Albright's Card -->
-				<div class="card">
-					<img src="cards/card-bg.jpg" alt="card background" class="card-img">
-					<img src="cards/hanna_headshot.jpg" alt="profile image" class="profile-img">
-					<h1>Hanna Albright</h1>
-					<p class="job-title">3D Printer Technician/Web Developer</p>
-					<p class="about">
-						<!-- talk about person here-->
-					</p>
-					<a href="#" class="btn">Contact</a>
-					<ul class="social-media">
-						<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-						<!--<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-						<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-						<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>-->
-					</ul>
+					<!-- Hanna Albright's Card -->
+					<div class="card">
+						<img src="cards/card-bg.jpg" alt="card background" class="card-img">
+						<img src="cards/hanna_headshot.jpg" alt="profile image" class="profile-img">
+						<h1>Hanna Albright</h1>
+						<p class="job-title">3D Printer Technician/Web Developer</p>
+						<p class="about">
+							<!-- talk about person here-->
+						</p>
+						<a href="#" class="btn">Contact</a>
+						<ul class="social-media">
+							<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+							<!--<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>-->
+						</ul>
+					</div>
 				</div>
 			</div>
 		</section>
