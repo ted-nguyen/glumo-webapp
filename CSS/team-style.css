@@ -1,13 +1,12 @@
-*{
+/**{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+}*/
 
 html {
   font-size: 10px;
 }
-
 body {
   overflow-x: auto;
 }
@@ -18,7 +17,7 @@ a {
 }
 
 section {
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 
 .heading {
@@ -75,7 +74,7 @@ section {
   object-fit: cover;
   border-radius: 50%;
   margin-top: -10rem;
-  z-index: 999;
+  z-index: 1;
   border: 1rem solid #ebeef8;
 }
 

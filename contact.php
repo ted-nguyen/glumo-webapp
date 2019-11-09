@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Contact | GluMo</title>
+		<title>Contact GluMo</title>
 		<link rel="shortcut icon" type="image/png" href="favicon.png">
 		<link rel="stylesheet" type="text/css" href="./css/contact-style.css">
+		<link rel="stylesheet" type="text/css" href="./css/modal-style.css">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 	</head>
 	<body>
 		<div class="topnav">
 			<div class="nav-container">
-				<a href="webapp.html"><img src="GluMoLoGo(Blue).png" style="width: 200px;">
-				</a>
+				<a href="webapp.html"><img src="GluMoLoGo(Blue).png" style="width: 200px;"></a>
 				<div class="topnav-right">
 					<a href="about.html">About</a>
 					<a href="team.html">Team</a>
 					<a href="contact.php">Contact</a>
-					<a href="login.html">Log in</a>
+
+					<!-- Button to open the modal login form -->
+					<button id="modalBtn" class="button">Log in</button>
+
+					<div id="loginModal" class="modal">
+						<div class="modal-content">
+
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<span class="closeBtn">&times;</span>
+								<h1>Log in</h1>
+							</div>
+
+							<!-- Modal Body -->
+							<form class="modal-body animate" action="/action_page.php">
+								<div class="login-box">
+									<input type="text" name="" placeholder="Email address" required>
+									<input type="password" name="" placeholder="Enter your password" required>
+									<input type="submit" name="" value="Log in">
+								</div>
+							</form>
+
+							<!-- Modal Footer -->
+							<div class="modal-footer">
+								<span class="psw"><a href="#">Forgot password?</a></span>
+								<!--<p class="create-account">New to GluMo? <a href="#">Join us today</a></p>-->
+							</div>
+
+						</div>
+					</div>
+
+					<script src="main.js"></script>
 				</div>
 			</div>
 		</div>
+<!-- Everything above this comment is part of thet navigation bar and on every page -->
+<!------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------>
 		<div class="content-container">
     	<div class="blurb">
         <h1>Contact us</h1>

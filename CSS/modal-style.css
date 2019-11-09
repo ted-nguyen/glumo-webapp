@@ -21,7 +21,7 @@
 .modal {
   display:none; /* Hidden by default */
   position:fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 3; /* Sit on top */
   left: 0;
   top: 0;
   height: 100%;
@@ -72,9 +72,9 @@ span.psw a {
 .closeBtn {
   color: white;
   float: right;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
-  padding: 10px 18px;
+  padding-right: 5px;
 }
 
 .closeBtn:hover, closeBtn:focus {
