@@ -1,14 +1,8 @@
-.content-container h1 {
-<<<<<<< HEAD
-  padding-left: 5%;
-=======
-  padding-left: 890px;
->>>>>>> 7a81178f3414d3c233f0a21d731493805718dcd7
-  font-size: 48px;
+.content-header h1 {
+  font-size: 10px;
 }
-
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+.contact-form input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -20,7 +14,7 @@ input[type=text], select, textarea {
 }
 
 /* Style the submit button with a specific background color */
-input[type=submit] {
+.contact-form input[type=submit] {
   width: 100%;
   border: none;
   outline: none;
@@ -34,7 +28,7 @@ input[type=submit] {
 }
 
 /* Style the submit button when hovered */
-input[type=submit]:hover {
+.contact-form input[type=submit]:hover {
   cursor: pointer;
   background: #3B55C3;
 }
@@ -61,7 +55,6 @@ input[type=submit]:hover {
 
 .error {
   color: red;
-
 }
 
 .success {

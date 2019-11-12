@@ -50,13 +50,11 @@
 				</div>
 			</div>
 		</div>
-<!-- Everything above this comment is part of thet navigation bar and on every page -->
-<!------------------------------------------------------------------------------------>
-<!------------------------------------------------------------------------------------>
-		<div class="content-container">
-    	<div class="blurb">
-        <h1>Contact us</h1>
-    	</div>
+		<!-- Everything above this comment is part of thet navigation bar and on every page -->
+		<!------------------------------------------------------------------------------------>
+		<!------------------------------------------------------------------------------------>
+		<div class="content-header">
+      <h1>Contact us</h1>
 		</div>
 		<?php include('send_email.php'); ?>
 		<div class="contact-form">
@@ -68,14 +66,15 @@
 				<input type="text" id="email" name="email" placeholder="Your email" value="<?= $email ?>" required>
 				<span class="error"><?= $email_error ?></span>
 
-				<textarea type="text" id="message" name="message" placeholder="Let us know what's on your mind" style="height:200px" value="<?= $message ?>"required> </textarea>
+				<textarea type="text" id="message" name="message" placeholder="Let us know what's on your mind" style="height:200px" value="<?= $message ?>"required></textarea>
 
-				<input type="submit" value="Submit">
+				<input type="submit" id="submit" value="Submit">
 
 				<div class="success"><?= $success; ?></div>
 			</form>
 		</div>
 		<div class="Logos">
 			<a href="https://www.scu.edu/engineering/labs--research/labs/frugal-innovation-hub/"><img src="frugalhub.png" style="width: 400px;">
-			</div>
+		</div>
+	</body>
 </html>
